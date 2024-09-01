@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Contact form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form action="" class="form">
+        <h1>Contact Us</h1>
+        <div class="input-name">
+          <div class="name_file">
+            <label for="">First Name</label>
+            <input type="text" name="" id="name1" required />
+            <p>This field is required</p>
+          </div>
+          <div class="name_file">
+            <label for="">Last Name</label>
+            <input type="text" name="" id="name2" required />
+            <p>This field is required</p>
+          </div>
+        </div>
+        <div class="input-Email">
+          <label for="">Email Address</label>
+          <input type="email" name="" id="email" />
+          <p>Please enter a valid email address</p>
+        </div>
+        <div class="input-check">
+          <label for="">Query Type</label>
+          <div class="checkbox">
+            <div class="fild-checkbox" >
+              <input type="radio" name="supo" id="check1" />
+              <span id="checklist">General Enquiry</span>
+            </div>
+            <div class="fild-checkbox">
+              <input type="radio" name="supo" id="check2" />
+              <span id="checklist">Support Request</span>
+            </div>
+          </div>
+          <p>Please select a query type</p>
+          <p id="sec">Please select a query type</p>
+        </div>
+        <div class="input-mensagem">
+          <label for="text">Message</label>
+          <textarea name="" id="message" required></textarea>
+          <p>This field is required</p>
+          <div id="Politic">
+            <input type="checkbox" name="check_Politic" id="" />
+            <span id="Privide"> I consent to being contacted by the team </span>
+            <p>To submit this form, please consent to being contacted</p>
+          </div>
+        </div>
+        <div class="btn-box">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Samuel Nogueira Cabita</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

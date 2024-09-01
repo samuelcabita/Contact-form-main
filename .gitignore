@@ -1,0 +1,19 @@
+Seu desafio é construir este formulário de contato e fazê-lo parecer o mais próximo possível do design. Preste atenção especial em tornar este formulário acessível. Construir formulários acessíveis é uma habilidade essencial para desenvolvedores front-end, então este é um desafio perfeito para praticar.
+
+Você pode usar qualquer ferramenta que quiser para ajudar a completar o desafio. Então, se você tem algo que gostaria de praticar, sinta-se à vontade para tentar.
+
+Seus usuários devem ser capazes de:
+
+Preencha o formulário e veja uma mensagem de brinde de sucesso após o envio bem-sucedido
+Receba mensagens de validação de formulário se:
+Um campo obrigatório foi esquecido
+O endereço de e-mail não está formatado corretamente
+Preencha o formulário apenas usando o teclado
+Tenha entradas, mensagens de erro e a mensagem de sucesso anunciadas em seu leitor de tela
+Veja o layout ideal para a interface dependendo do tamanho da tela do seu dispositivo
+Veja os estados de foco e foco para todos os elementos interativos na página
+Baixe o projeto e percorra o README.mdarquivo. Isso fornecerá mais detalhes sobre o projeto e ajudará você a se preparar.
+
+Quer algum apoio no desafio?
+Junte-se à nossa comunidade
+e faça perguntas no canal de ajuda.

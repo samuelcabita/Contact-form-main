@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: Karla1;
+    src: url('./Fonts/static/Karla-Bold.ttf');
+}
+@font-face {
+    font-family: Karla2;
+    src: url('./Fonts/static/Karla-Regular.ttf');
+}
+@font-face {
+    font-family: Karla3;
+    src: url('./Fonts/static/Karla-Medium.ttf');
+}
+color{
+    /*Primary*/
+    color:  #ffffff;
+    color: #87a3a6;
+    color: #2b4246;
+    /*Natural*/
+    color:  #dff1e7;
+    color: #0c7d69;
+    color: #d73c3c;
+}
+body{
+    background: #eefdfd;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+main h1{
+    font-family: karla1;
+    padding: 30px 50px 0px 50px;
+}
+main .form{
+    background: #ffff;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.form .input-name{
+    display: flex;
+    gap: 25px;
+    padding: 30px 50px 20px 50px;
+}
+.form .input-name .name_file{
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+   font-family: karla2;
+   font-size: 17px;
+   margin-bottom: 10px;
+}
+.input-name .name_file>input{
+    width: 255px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+p{
+    margin-top: 5px;
+    font-family: karla2;
+    font-size: 13px;
+    color: #d73c3c;
+    display: none;
+}
+#sec{
+    position: relative;
+    left: 290px;
+    margin-top: 0;
+}
+.form .input-Email{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 20px 50px;
+}
+.form .input-Email>input{
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid black;
+}
+.form .input-check {
+    padding: 0 50px 20px 50px;
+}
+.form .input-check .checkbox{
+    display: flex;
+    gap: 25px;
+    padding-top: 10px;
+}
+.form .input-check .checkbox .fild-checkbox{
+    width: 255px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+}
+.form .input-mensagem{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 20px 50px;
+}
+.form .input-mensagem  >input,#message{
+    height: 130px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid black;
+}
+.form .input-mensagem #Politic{
+    margin-top: 50px;
+}
+.form .input-mensagem #Politic>span{
+    font-family: karla2;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.form .btn-box{
+    padding: 0 50px 20px 50px;
+    margin-top: 10px;
+}
+.form .btn-box > button{
+    height: 40px;
+    width: 552px;
+    border: none;
+    border-radius: 7px;
+    background: #0c7d69;
+    color: #ffffff;
+    cursor: pointer;
+}
